@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="wrapper-list">
+        <h1>Lista de Productos</h1>
+        <ng-container *ngIf="show===true">
+            <ng-container *ngFor="let p of products">
+                    <p>
+                        {{p.name}}
+                        {{p.cost | currency}}
+                    </p>
+            </ng-container>    
+        </ng-container>    
+        <button (click)="showHideList()">{{hideShow}}</button>
+    </div>
+
+</div>
