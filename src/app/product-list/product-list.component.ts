@@ -9,11 +9,12 @@ type Product = {
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.css']
+  styleUrls: ['./product-list.component.css'],
 })
+
 export class ProductListComponent {
   show: boolean = true;
-  hideShow: string = 'Hide List';
+  hideShow: string = 'Ocultar Lista';
   products: Product [] = [	
     {name: 'Tv', cost: '85456' },
     {name: 'Laptop', cost: '465120' },
@@ -24,6 +25,6 @@ export class ProductListComponent {
 
   showHideList(){
     this.show = !this.show;
-    this.show? this.hideShow = 'Hide List': this.hideShow = 'Show List';
+    this.show? this.hideShow = 'Ocultar Lista': this.hideShow = 'Mostrar Lista';
   }
 }
