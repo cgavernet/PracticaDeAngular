@@ -43,5 +43,6 @@ p{
     border-bottom: 2px gray solid;
 }
 button{
+    margin-top: 1em;
     background-color: rgb(218, 192, 243);
 }
