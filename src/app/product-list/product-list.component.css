@@ -13,12 +13,25 @@
     width: 80%;
     display: flex;
     flex-direction: column;
-    background-color: rgb(151, 236, 177);
+    /* background-color: rgb(226, 218, 226); */
     justify-content: center;
+}
+.wrapper-list > h1{
+    color: white;
+}
+.button-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+mat-divider{
+    border-color: blueviolet;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 h1{
     text-align: center;
-    background-color: rgb(29, 158, 4);
+    background-color: rgb(182, 84, 141);
     margin-top: 0px;
     padding: 0.5em;
 }
@@ -28,4 +41,7 @@ p{
     margin: 0.5em;
     font-size: 1.5em;
     border-bottom: 2px gray solid;
+}
+button{
+    background-color: rgb(218, 192, 243);
 }
